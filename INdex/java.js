@@ -1,38 +1,43 @@
+//switch
+
+//let opcao = 3;
+/*
+let opcao = parseInt(prompt("Digite uma opção"))
+
+//é possível usar tambem    let opcao =+ prompt("Digite uma opção") para converão de para número.
+
+//case é preenchido com número
+switch(opcao){
+
+    case 1:
+        document.write("Primeira Opção")
+        break;
+    case 2:
+        document.write("Segunda Opção")
+        break;
+    case 3:
+        document.write("Terceira Opção")
+        break;
+    default:
+        document.write("Nenhuma das opções são válidas")
+        break;
+}
+*/
+
 let valor = 7
-console.log(valor) // 7
+console.log(valor);
+valor = --valor
+console.log(valor);
 
-valor = valor+1
-console.log(valor)
+let valor1 = 10
+console.log(valor1);
+valor1 *= 3
+console.log(valor1)
 
-let carros = ["Corsa","HB20","Fusca","Gol"]
-
-for(let i = 0; i < 10; i++);{
-    console.log("Seu i agora é",i );
-}
-
-
-for(let carro of carros){
-    console.log(carro);
-}
+let valor2 = 15
+console.log(valor2);
+valor2 += 75
+console.log(valor2)
 
 
-let count = 0
-while(cont < 10){
-    console.log("passagem"+cont)
-    cont++
-}
 
-
-// FUNÇÃO 
-
-function nome_da_funcao(arg1, arg2){
-    return arg1 + arg2
-}
-
-console.log(nome_da_funcao(5,4))
-
-//ALERT
-
-function avisar(){
-    alert("Isto é um alerta")
-}
