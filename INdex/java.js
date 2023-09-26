@@ -39,5 +39,9 @@ console.log(valor2);
 valor2 += 75
 console.log(valor2)
 
+// for (laço de repetição)
 
+for(let i =1; i < 10; i++){
+    console.log("Agora i vale" +i);
+}
 
