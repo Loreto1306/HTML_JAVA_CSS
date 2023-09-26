@@ -1,4 +1,4 @@
-//switch
+/*switch
 
 //let opcao = 3;
 /*
@@ -23,7 +23,7 @@ switch(opcao){
         break;
 }
 */
-
+/*
 let valor = 7
 console.log(valor);
 valor = --valor
@@ -41,7 +41,57 @@ console.log(valor2)
 
 // for (laço de repetição)
 
-for(let i =1; i < 10; i++){
-    console.log("Agora i vale" +i);
+//for(let i =1; i < 10; i++){
+    //console.log("Agora i vale" +i);
+
+
+// for com Array
+let carros = ["belina","fusca","Marea Turbo","Kombi","gurgel"]
+
+//for(let i = 0; i < carros.lenght; i++){
+    //console.log(carros[i]);
+
+
+for (let carro of carros){
+    console.log(carro)
 }
 
+//while
+
+/*let cont=0
+while(cont <20){
+    alert("Passagem de numeros")
+    cont++
+
+}
+
+let valor3=0
+do{
+    console.log("passagem " + valor3)
+    valor2++
+}while( valor2 == 0)
+
+//fun
+
+function funcao(num1, num2){
+    return num1-num2
+}
+console.log(funcao(4,6))
+
+function avisar(){
+    alert("Aviso 1")
+    alert("Aviso 2")
+}
+/*
+*/
+
+let novo = document.getElementById("IdNome")
+
+function mudar(){
+    
+document.getElementById("TITULO").innerHTML =novo.value;
+}
+
+function trocar(cores){
+    document.body.style.background =cores
+}
